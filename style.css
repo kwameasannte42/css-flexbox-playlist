@@ -13,3 +13,25 @@ body{
     margin: 0 auto;
 }
 
+.flex-container {
+    display: flex;
+}
+
+.box {
+    height: 100px;
+    min-width: 100px;
+    flex-grow: 1;
+}
+
+.one {
+    background: red;
+}
+
+.two {
+    background: pink;
+}
+
+.three {
+    background: navy;
+}
+
